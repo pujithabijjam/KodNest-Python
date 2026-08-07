@@ -11,7 +11,7 @@ for i in range(1,student_count+1):
         failed_count += 1
 print(f"Total marks: {total_marks}")
 print(f"Passed Students: {passed_count}")
-print(f"Failed Students: {faild_count}")
+print(f"Failed Students: {failed_count}")
 
 if failed_count == 0:
     print("Batch Result: All Passed")
