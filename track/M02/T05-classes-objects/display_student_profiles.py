@@ -5,11 +5,7 @@ class StudentProfile:
         self.course = course
 
     def __str__(self):
-        return(
-            f"ID: {self.student_id}
-            f"Name: {self.name}
-            f"Course: {self.course}"
-        )
+        return f"{self.student_id} - {self.name} - {self.course}"
 
 class PlacementManager:
     def __init__(self):
